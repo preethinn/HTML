@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+
+<body>
+    <form>
+        <table id="table">
+            <tr>
+                <th id="header"colspan="2">Please Complete Our Survey</th>
+            </tr>
+            <tr>
+                <td class="one">Contact Information:</td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email Address:</label></td>
+                <td class="two"><input id="mail" class="box" type="mail" pattern="[a-z0-9]@" /></td>
+            </tr>
+            <tr>
+                <td><label for="name">First Name:</label></td>
+                <td class="two"><input  class="box"type="text" id="name" /></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td class="two"><input type="text"id="lname" /></td>
+            </tr>
+            <tr>
+                <td class="one">Geographic Information</td>
+            </tr>
+            <tr>
+                <td><label for="State">State</label></td>
+                <td class="two"><input type="text" id="State" placeholder="Two Characters" /></td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip Code</label></td>
+                <td class="two"><input type="tel" placeholder="Five digits" /></td>
+            </tr>
+            <tr>
+                <td class="one">How did you hear about us?</td>
+            </tr>
+            <tr>
+                <td><label for="web">Web Search:</label></td>
+                <td class="two"><input type="checkbox" id="web" /></td>
+            </tr>
+            <tr>
+                <td><label for="fb">Face Book:</label></td>
+                <td class="two"><input type="checkbox" id="fb" /></td>
+            </tr>
+            <tr>
+                <td><label for="twitter">Twitter:</label></td>
+                <td class="two"><input type="checkbox" id="twitter" /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Message:</label></td>
+                <td class="two"><input type="checkbox" id="email" /></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td class="one">Thank you for taking our Survey!</td></tr>
+                    <tr><td rowspan="2" class="align"><button id="foot">Submit</button></td>
+                        <td><button id="foot">Reset</button></td>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>

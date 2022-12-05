@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="Viewport" content="width=device-width ,initial-Scale=1.0">
+<link rel="stylesheet" href="Form4.css">
+<title>Form 4</title>
+</head>
+
+<body>
+    <form>
+        <table>
+        <thead>
+            <tr>
+                <th colspan="2" style="border:solid 1px black">Registration Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="name">Enter Name</label></td>
+                <td><input type="text" id="name" required maxlength="30" size="20"/></td>
+            </tr>
+
+            <tr>
+                <td><label style="border:solid, skyblue;"for="pass">Enter Password</label></td>
+                <td><input type="text" id="pass" required pattern="[a-zA-Z0-9]{8}"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="addr">Enter Password</label></td>
+                <td><textarea id="addr" rows="7" cols="18"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Select Game</label></td>
+                <td id="check"><input id="hockey" type="checkbox" /><label for="hockey">Hockey</label><br>
+                                <input type="checkbox" checked id="foot" /><label
+                                    for="foot">FootBall</label><br>
+                                <input type="checkbox" id="bad" /><label for="bad">Badminton<br></label>
+                                <input type="checkbox" id="cric" /><label for="cric">Cricket</label><br>
+                                <input type="checkbox" id="throw" /><label for="throw">Throwball</label><br>
+                                <input type="checkbox" id="volley" /><label for="volley">VolleyBall</label><br>
+                            </td>
+                        </tr>
+        
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" id="male"><label for="male">Male</label>
+                    <input type="radio" id="female"><label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Select ur Age</td>
+                <td><select id="age">
+                        <option>Select</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file">Select Photo</td>
+                <td><input id="file" type="file" required></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><input style="width:100px"type="button" value="Click Me" />
+                    <input  type="button" style="width:100px"value="Reset" />
+                    <input type="button" style="width:100px"value="Submit Form" />
+                </td>
+            </tr>
+        </tfoot>
+    </form>
+        </table>
+</body>
+
+</html>

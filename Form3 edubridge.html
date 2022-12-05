@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    <script type="text/JavaScript">
+        function Submit()
+        {
+            document.getElementByID("s").innerHTML="sucessful";
+            alert('Sucessfully Submitted');
+        }
+        </script>
+    <style>
+        table {
+            background-color: #36013F;
+            border-style: hidden;
+            margin: 200px;
+        }
+
+        th {
+            text-align: left;
+            background-color: peru;
+            color: yellow;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        label {
+            color: yellow;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .footer {
+            background-color: peru;
+            text-align: end;
+        }
+
+        input {
+            padding-right: 10px;
+
+
+        }
+
+        #can {
+            text-align: end;
+            background-color: #CD5C5C;
+            padding: 8px;
+            border-style: hidden;
+            color: whitesmoke;
+            font: 15px 'Courier New', Courier, monospace;
+
+        }
+
+        #sub {
+            background-color: lightgreen;
+            padding: 8px;
+            border-style: hidden;
+            color: whitesmoke;
+            font: 15px 'Courier New', Courier, monospace;
+        }
+
+        .agree {
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sign in</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">First Name</label>
+                        <input type="text" required title="please enter valid credentials" id="name"
+                            placeholder="Enter First Name" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="lname">Last Name</label>
+                        <input type="text" pattern="[a-zA-Z]{5}" id="lname" placeholder="Enter Last Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label>
+                        <select>
+                            <option>Date</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option selected>5</option>
+                        </select>
+                        <select>
+                            <option>Month</option>
+                            <option selected>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select>
+                            <option>Year</option>
+                            <option selected>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                        <input id="male" type="radio" /><label for="male">Male</label>
+                        <input id="female" type="radio" checked /><label for="female">Female</label>
+                    </td>
+                <tr>
+                <tr>
+                    <td><label>Country</label>
+                        <select>
+                            <option>Country</option>
+                            <option selected>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Andra Pradesh</option>
+                            <option>Telangana</option>
+                            <option>Delhi</option>
+                            <option>Maharashtra</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td><label for="mail">E-mail</label>
+                        <input type="mail" id="mail" placeholder="Enter E-mail" pattern="{a-z}@" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="ph">Phone</label>
+                        <input type="tel" id="ph" placeholder="Enter Phone" maxlength="10" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="pass">Password</label>
+                        <input type="password" id="pass" required /></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="p">Confirm Password</label>
+                        <input type="password" id="p" required /></label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="agree"><input type="checkbox" checked />
+                        <label for="p">I Agree to the Terms of use</label>
+                    </td>
+                </tr>
+            <tfoot class="footer">
+                <tr>
+                    <td>
+                        <p id="s"></p>
+                         <button onclick="Submit()" id="sub">Submit</button>
+                        <p id="c"></p> <button onclick="Cancel()" id="can">Cancel</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+
+</html>

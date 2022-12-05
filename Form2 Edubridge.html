@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <style>
+        table{
+            border:outset 10px;
+            margin:25px;
+            padding:9px;
+            background-color:palegoldenrod;
+        }
+        th{
+            color:whitesmoke;
+            border: groove 1px;
+            background-color:	#CD5C5C;
+            font-size:30px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           
+        } 
+        input{
+            background-color:white;
+            border: groove 1px;
+            height:30px; 
+        }
+        #msg{
+            font-size:20px;
+            border:solid 2px; 
+            width:540px;
+            background-color:yellow;
+        }
+    /*
+        .text{
+           margin:10px;
+            height:30px;
+        }*/
+        </style>
+</head>
+
+<body>
+    <form action="Form3 edubridge.html" method="get" target="_blank">
+    <table>
+        <thead>
+            <tr>
+                <th>Contact Us!</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="name"><input type="text" id="name"placeholder="Name....." size="90"></label></td>
+            </tr>
+            <tr>
+                <td><label for="email"><input type="email" id="email" placeholder="Email...." size="90"pattern="{a-z0-9}@"></td>
+            </tr>
+            <tr>
+                <td><label for="sub"><input type="text"placeholder="Subject...." size="90"></label></td>
+            </tr>
+            <tr>
+                <td><textarea class="text"rows="5" cols="72" placeholder="Message..."></textarea></td>
+            </tr>
+        </tbody>
+        </tfoot>
+        <tr>
+            <td colspan="3"><input id="msg" type="submit" 
+                 type="text" Value="Send Message"></td>
+        </tr>
+        </table>
+        </form>
+</body>
+</html>

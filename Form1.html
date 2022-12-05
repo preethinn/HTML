@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <!--Internal Styling-->
+    <style>
+        table,td,th{
+            border-collapse: collapse;
+            border: groove 3px;
+        }
+        .pass{
+            padding:5px;
+        }
+        #mail{
+            padding:5px;
+        }
+        </style>
+    
+</head>
+
+<body>
+    <form action="Form2 Edubridge.html" taget="_blank" method="get">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Sign in</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td rowspan="1"> <label for="email">E-mail address
+                <td id="mail"><input type="email" id="email" pattern="{a-z0-9}@" size="20"/></td></label>
+            </tr>
+            <tr>
+                <td rowspan="1"> <label for="pass">Password
+                <td class="pass"><input type="password" id="pass" required/></td></label>
+            </tr>
+            </tbody>
+                <tfoot>
+                <tr>
+                <td colspan="2" style="text-align:center">
+                <input type="submit" value="Sign in"></td>
+                </tr>
+                </tfoot>
+        </table>
+</body>
+</html>

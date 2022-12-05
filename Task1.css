@@ -1,0 +1,48 @@
+#table {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: blue;
+    outline-style: solid;
+    margin: 100px;
+    padding-bottom:10px;
+    width:500px;
+    height:100px;
+}
+
+ #header{
+    padding-top: 30px;
+    padding-left:30px;
+    text-align: left;
+    font-size:25px;
+}
+th{
+    font-size: 15px;
+    color:blue;
+}
+.one{
+    font-size:15px;
+    color:black;
+    padding-left:30px;
+}
+.two{
+    color:blue;
+    padding-right:100px; 
+
+}
+label{
+    padding-left:30px;
+    color:blue;
+}
+#foot{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right:outset blue;
+    border-bottom:outset blue;
+    box-shadow:3px 2px 5px;
+    width:100px;
+    border-top:hidden;
+    border-left:hidden;
+}
+.align{
+    padding-left:120px;
+}

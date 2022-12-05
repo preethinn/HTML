@@ -1,0 +1,17 @@
+table{
+    border-style:outset;
+}
+td{
+    text-align:center;
+    border:solid 1px;
+    background-color:skyblue;
+}
+th{
+    background-color:palegoldenrod;
+    color:red;
+    padding:20px;
+    font: 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#age{
+    width:150px;
+}
