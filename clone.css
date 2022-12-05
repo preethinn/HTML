@@ -1,0 +1,83 @@
+
+header {
+    background-color: darkgoldenrod;
+    text-align: center;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.tab1 {
+    color: darkgoldenrod;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    height: 100px;
+    padding-top: 30px;
+    /* margin-top:0px;*/
+    text-align: center;
+    width: 1500px;
+}
+
+.tab2 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    width: 1500px;
+    height: 100px;
+    /*margin-top:0px;*/
+    /*padding-left:500px;*/
+    padding-left: 500px;
+}
+
+.icons {
+    color: whitesmoke;
+}
+
+#cart {
+    margin-left: 100px;
+}
+
+div,
+h3 {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+h3 {
+    height: 50px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.fig1 {
+    margin-right: 20px;
+}
+
+#star {
+    color: darkgoldenrod;
+}
+
+ins {
+    text-align: center;
+    background-color: white;
+}
+
+#monthlydeals {
+    background-color: darkgoldenrod;
+    height: 150px;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+#foot {
+    background-color: white;
+    padding-top: 0px;
+}
+
+.aboutus {
+    padding-left: 500px;
+}
+
+.media {
+    padding-left: 400px;
+}
